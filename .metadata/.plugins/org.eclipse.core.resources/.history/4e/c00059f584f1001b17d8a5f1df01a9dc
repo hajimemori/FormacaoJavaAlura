@@ -1,0 +1,5 @@
+grammar IsiLang;
+
+prog		: 'programa' bolco  'fimprog'
+			;
+

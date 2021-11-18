@@ -1,0 +1,7 @@
+grammar IsiLang;
+
+prog		: 'programa' bolco  'fimprog'
+			;
+bloco		: (cmd)+
+			;
+cmd			: cmdleitura

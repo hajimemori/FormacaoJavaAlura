@@ -1,0 +1,16 @@
+grammar IsiLang;
+
+prog		: 'programa' bolco  'fimprog'
+			;
+bloco		: (cmd)+
+			;
+cmd			: cmdleitura | cmdescrita | cmdattrib
+			;
+cmdleitura  : 'leia' AP ID FP SC
+			; 
+cmdescrita : 'escreva' AP ID FP SC
+			;
+cmdarrtrib	: ID ATTR expr SC
+			;
+espre 		: 
+				

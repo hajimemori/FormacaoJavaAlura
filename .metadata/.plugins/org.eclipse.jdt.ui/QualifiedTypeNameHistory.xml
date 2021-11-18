@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.net.DatagramSocket"/>
+    <fullyQualifiedTypeName name="java.net.DatagramPacket"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="br.com.professorissidrio.compiler.lexico.Token"/>
+    <fullyQualifiedTypeName name="br.com.professorissidrio.compiler.lexico.IsiScanner"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.RETURN"/>
+    <fullyQualifiedTypeName name="br.com.professorissidrio.compiler.exceptions.IsiLexicalException"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CharStream"/>
+    <fullyQualifiedTypeName name="parser.IsiLangParser"/>
+    <fullyQualifiedTypeName name="parser.IsiLangBaseListener"/>
+    <fullyQualifiedTypeName name="parser.IsiLangListener"/>
+    <fullyQualifiedTypeName name="parser.IsiLangLexer"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.parse.ANTLRLexer"/>
+    <fullyQualifiedTypeName name="org.antlr.runtime.CommonTokenStream"/>
+    <fullyQualifiedTypeName name="org.antlr.runtime.ANTLRInputStream"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CommonTokenStream"/>
+    <fullyQualifiedTypeName name="org.antlr.v4.runtime.CharStreams"/>
+</qualifiedTypeNameHistroy>

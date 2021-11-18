@@ -1,0 +1,38 @@
+grammar isiLang;
+
+prog        : 'programa'    bloco   'fimprog'
+            ;
+
+bloco       :   (cmd)+
+            ;
+
+cmd         : cmdleitura | cmdescrita | cmdatrib
+            ;
+
+cmdleitura  : 'leia' AP ID FP SC
+            ;
+cmdescrita  : 'escreva' AP ID FP SC
+            ;
+cmdatrib    : ID ATTR expr SC
+            ;
+expr        : termo ( OP termo)*
+            ;
+termo       : ID | NUMBER
+            ;
+
+AP          : '('
+            ;
+FP          : ')'
+            ;
+SC          : ';'
+            ;
+OP          : '+' | '-' | '*' | '/'
+            ;
+ATTR        : '='
+            ;
+ID          : [a-z] ([a-z] | [A-Z] | [0-0])*
+            ;
+NUMBER      : [0-9]+ ('.' [0-9]+)?
+            ;
+WS          : (' ' | '\n' | '\t' | '\r') -> skip
+            ;
